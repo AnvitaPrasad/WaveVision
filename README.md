@@ -1,1 +1,1 @@
-# WaveVision
+# An interactive audio-visual experience that visualizes sound waves in real-time. Features dual oscillators with customizable waveforms, frequency modulation, and a clean minimalist interface. Perfect for exploring audio synthesis concepts and creating beautiful sound visualizations.
