@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaveVision</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+        #controls {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            z-index: 100;
+        }
+        button {
+            background-color: #00FFDD; /* Neon teal */
+            border: none;
+            color: black;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-weight: bold;
+            box-shadow: 0 0 15px #00FFDD; /* Glow effect */
+        }
+        button:hover {
+            background-color: #00FFFF;
+            box-shadow: 0 0 20px #00FFFF;
+        }
+        #stopBtn {
+            background-color: #FF00FF; /* Neon pink */
+            box-shadow: 0 0 15px #FF00FF; /* Glow effect */
+        }
+        #stopBtn:hover {
+            background-color: #FF66FF;
+            box-shadow: 0 0 20px #FF66FF;
+        }
+    </style>
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"></script>
+</head>
+<body>
+    <div id="controls">
+        <button id="startBtn">Start</button>
+        <button id="stopBtn">Stop</button>
+    </div>
+    
+    <!-- Your sketch -->
+    <script src="sketch.js"></script>
+</body>
+</html> 
